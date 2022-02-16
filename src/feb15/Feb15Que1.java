@@ -45,6 +45,7 @@ public class Feb15Que1 {
         System.out.println(l.isEmpty());
         System.out.println(l.contains(2));
         System.out.println(l.retainAll(l1));
+        System.out.println(l);
     }
 }
 /**
