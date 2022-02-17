@@ -113,5 +113,10 @@ public class Feb17Que {
         int modifier3=field1.getModifiers();
         String mod3= Modifier.toString(modifier3);
         System.out.println("Modifier od Field is::"+mod3);
+        System.out.println("=====for field[] foreach =====");
+        Field[]  fields = obj.getDeclaredFields();
+        for (Field f:fields) {
+            System.out.println(f);
+        }
     }
 }
